@@ -7,6 +7,15 @@
   pointer-events: none;
 }
 
+.btn {
+  background-color: #282c34;
+  color: white;
+  border: 1px solid #282c34;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +41,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
