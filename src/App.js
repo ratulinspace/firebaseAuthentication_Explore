@@ -8,7 +8,6 @@ function App() {
 
   const provider = new GoogleAuthProvider();
 
-
   const handleGoogleSignIn = () => {
     signInWithPopup(auth, provider)
       .then(result => {
